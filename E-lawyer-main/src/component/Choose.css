@@ -1,0 +1,28 @@
+.option {
+    text-align: center;
+    font-size: 40px;
+    margin-left: 90px;
+  }
+  
+.first{
+    margin-top: 35rem;
+    margin-left: 60rem;
+    background-color: rgb(234, 227, 225);
+    width: 30rem;
+    border-radius: 5px;
+}
+.second{
+    margin-top: 30px;
+    margin-left: 60rem;
+    background-color: rgb(234, 227, 225);
+    width: 30rem;
+    border-radius: 5px;
+}
+.first:hover{
+    transition: 0.9s;
+    background-color: #6ab2f6;
+}
+.second:hover{
+    transition: 0.9s;
+    background-color: #6ab2f6;
+}

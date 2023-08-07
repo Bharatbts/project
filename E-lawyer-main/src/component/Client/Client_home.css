@@ -1,0 +1,37 @@
+.main-content{
+  display: flex;
+  /* background-color: rgb(200, 222, 241); */
+}
+.c-home{
+  display: grid;
+  justify-content: center;
+  margin: 20px 20px;
+  grid-template-columns: auto auto auto auto;
+  width: 85%;
+}
+.c-profile{
+  border: 1px solid black;
+  height: 400px;
+  width: 300px;
+  margin: 20px 20px;
+  text-align: center;
+  background-color: #839df5;
+  transition: background-color 0.8s ease;
+}
+.c-profile:hover{
+  background-color: rgb(252, 138, 97);
+}
+select{
+  border: 1px solid black;
+}
+.c-profile img{
+  border: 1px solid blanchedalmond;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.category{
+  font-size: 15px;
+  margin: 20px;
+}

@@ -1,0 +1,67 @@
+.content {
+  background-image: url(../assets/contact1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  /* position: relative; */
+
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(0.7);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.content h1 {
+  margin-top: 50px;
+  font-weight: 500;
+  text-align: center;
+  z-index: 1;
+  color: white;
+  animation: scale 1s ease-in-out infinite alternate;
+}
+.content form {
+  max-width: 600px;
+  margin: 87px auto;
+  margin-bottom: 191px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  position: relative;
+  z-index: 1;
+}
+label {
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+textarea {
+  height: 150px;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.2s ease-in-out;
+}
+
+button[type="submit"]:hover {
+  background-color: #0069d9;
+}
